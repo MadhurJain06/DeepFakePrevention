@@ -1,0 +1,23 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+aiofiles==23.2.1
+slowapi==0.1.9
+httpx>=0.27.0
+
+# ML stack — requires CUDA GPU(s) at runtime
+torch>=2.2.0
+diffusers>=0.29.0
+transformers>=4.41.0
+accelerate>=0.30.0
+xformers>=0.0.26
+
+# Image / CV
+Pillow>=10.3.0
+opencv-python-headless>=4.9.0
+scikit-image>=0.23.0
+numpy>=1.26.0
+
+# Red-team eval (ArcFace)
+deepface>=0.0.93
